@@ -1,0 +1,284 @@
+{
+   "intents":[
+ {
+   "tag": "greeting",
+   "patterns": [
+      "Hi",
+      "How are you?",
+      "Is anyone there?",
+      "Hello",
+      "Good day",
+      "What's up",
+      "how are ya",
+      "heyy",
+      "whatsup",
+      "??? ??? ??"
+   ],
+   "responses": [
+      "Hello!",
+      "Good to see you again!",
+      "Hi there, how can I help?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "goodbye",
+   "patterns": [
+      "cya",
+      "see you",
+      "bye bye",
+      "See you later",
+      "Goodbye",
+      "I am Leaving",
+      "Bye",
+      "Have a Good day",
+      "talk to you later",
+      "ttyl",
+      "i got to go",
+      "gtg"
+   ],
+   "responses": [
+      "Sad to see you go :(",
+      "Talk to you later",
+      "Goodbye!",
+      "Come back soon"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "what is the name of your developers",
+      "what is the name of your creators",
+      "what is the name of the developers",
+      "what is the name of the creators",
+      "who created you",
+      "your developers",
+      "your creators",
+      "who are your developers",
+      "developers",
+      "you are made by",
+      "you are made by whom",
+      "who created you",
+      "who create you",
+      "creators",
+      "who made you",
+      "who designed you"
+   ],
+   "responses": [
+      "Rasheen,Gokul,Ganesh"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "name",
+      "your name",
+      "do you have a name",
+      "what are you called",
+      "what is your name",
+      "what should I call you",
+      "whats your name?",
+      "what are you",
+      "who are you",
+      "who is this",
+      "what am i chatting to",
+      "who am i taking to",
+      "what are you"
+   ],
+   "responses": [
+      "You can call me Educational robot.",
+      "I'm Educational robot",
+      "I am a Chatbot.",
+      "I am your helper"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "more info",
+      "contact info",
+      "how to contact college",
+      "college telephone number",
+      "college number",
+      "What is your contact no",
+      "Contact number?",
+      "how to call you",
+      "College phone no?",
+      "how can i contact you",
+      "Can i get your phone number",
+      "how can i call you",
+      "phone number",
+      "phone no",
+      "call"
+   ],
+   "responses": [
+      "I dont have any contact number"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "courses",
+   "patterns": [
+      "list of courses",
+      "list of courses offered",
+      "list of courses offered in",
+      "what are the courses offered in your college?",
+      "courses?",
+      "courses offered",
+      "courses you offer",
+      "branches?"
+   ],
+   "responses": [
+      "We offer Topics related to artificial intelliegnce for free!!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "fees",
+   "patterns": [
+      "information about fee",
+      "information on fee",
+      "tell me the fee",
+      "college fee",
+      "fee per semester",
+      "what is the fee of each semester",
+      "what is the fees of each year",
+      "what is fee",
+      "what is the fees",
+      "how much is the fees",
+      "fees for first year",
+      "fees",
+      "about the fees",
+      "tell me something about the fees"
+   ],
+   "responses": [
+      "this is for free"
+   ],
+   "context_set": ""
+}
+ ,
+ {
+   "tag": "location",
+   "patterns": [
+      "where is the college located",
+      "college is located at",
+      "where is college",
+      "where is college located",
+      "address of college",
+      "how to reach college",
+      "college location",
+      "college address",
+      "wheres the college",
+      "how can I reach college",
+      "whats is the college address",
+      "what is the address of college",
+      "address",
+      "location"
+   ],
+   "responses": [
+      "we dont have locations"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "syllabus",
+   "patterns": [
+      "Syllabus for AI",
+      "what is the Artificial Intelligence syllabus",
+      "syllabus",
+      "timetable",
+      "what is AI syllabus",
+      "syllabus",
+      "AI syllabus",
+      "What is next lecture"
+   ],
+   "responses": [
+      "Importance of AI, Evolution of AI, Applications of AI, Classification of AI systems,Heuristic search strategies – Constraint Satisfaction Problem,Optimization problems"
+   ],
+   "context_set": ""
+},
+{
+   "tag": "importance of ai",
+   "patterns": [
+      "is there any importance of ai",
+      "importance of ai",
+      "importance of ai information",
+      "importance of ai books information",
+      "Tell me about importance of ai"
+   ],
+   "responses": [
+     "Below we are going to read about the huge importance of Artificial Intelligence:\nArtificial Intelligence's importance and subsequent components have been known for a long time. They are being seen as tools and techniques to make this world better. And it's not like you have to go through to be able to use these fancy tech gadgets. You can look around, and I'm sure most of your work is smoothed out by artificial intelligence.\nIts importance lies in making our life easier. These technologies are a great asset to humans and are programmed to minimize human effort as much as possible. They can operate in an automated fashion. Therefore, manual intervention is the last thing that can be sought or seen during the operation of parts involving this technology.\nThese machines speed up your tasks and processes with guaranteed accuracy and precision, making them a useful and valuable tool. Apart from making the world an error-free place with their simple and everyday techniques, these technologies and applications are not only related to our ordinary and everyday life. It is affecting and holds importance for other domains as well."
+   ],
+   "context_set": ""
+}
+,
+{
+       "tag": "application of ai",
+         "patterns": [
+            "applications of ai",
+            "can you tell me about the application of ai",
+            "What are some applications of AI in Natural Language Processing?",
+            "How is AI used in language translation?",
+            "What is the role of AI in sentiment analysis?"
+         ],
+         "responses": [
+            "AI is used in various applications:\n\n- Natural Language Processing (NLP): AI is used in NLP applications such as language translation, sentiment analysis, chatbots, and virtual assistants.\n- Computer Vision: AI is applied in computer vision for tasks like object detection, image recognition, facial recognition, and medical image analysis.\n- Autonomous Vehicles: AI technologies are utilized in autonomous vehicles for navigation, object detection, decision-making, and route optimization.\n- Healthcare: AI assists in medical diagnosis, personalized treatment recommendations, drug discovery, and patient monitoring.\n- Finance: AI is employed in finance for fraud detection, algorithmic trading, risk assessment, and customer service.\n- Robotics: AI powers robots for tasks ranging from manufacturing and assembly to household chores and healthcare assistance.\n- Gaming: AI techniques are used in gaming for character behavior, procedural content generation, and opponent AI."
+         ],
+         "context_set":""
+}
+,
+{
+   "tag":"classification of ai",
+   "patterns":[
+      "what are the classification of ai",
+      "classification of ai"
+   ],
+   "responses":[
+      "Classification of AI Systems:\nNarrow AI (Weak AI): AI systems designed for specific tasks, such as speech recognition, image classification, or playing chess. /n General AI (Strong AI): Hypothetical AI systems with human-level intelligence capable of understanding, learning, and applying knowledge across diverse domains. /n Artificial Superintelligence (ASI): AI systems surpassing human intelligence across all domains.\nIntelligent Agents\nStructure of Agents:\nn intelligent agent perceives its environment through sensors, processes information, and acts upon the environment through actuators. It typically consists of a knowledge base, inference engine, and interface components\nMulti-Agent Systems:\n Multiple intelligent agents interact with each other to achieve individual or collective goals. They can collaborate, compete, or negotiate in complex environments\n Collaboration Systems:\nIntelligent agents collaborate to solve problems, optimize resources, or achieve common objectives. Examples include collaborative robotics systems and multi-agent negotiation platforms."
+   ]
+},
+{
+   "tag":"heuristic search strategies",
+   "patterns":[
+      "heuristic search strategies",
+      "what are the heuristic strategies"
+   ],
+   "responses":[
+      "Heuristic Search Strategies:\nHeuristic Search: A search strategy that guides the exploration of a problem space by using heuristic functions to estimate the utility of potential solutions.\nTypes of Heuristic Search:\n Examples include informed search algorithms like A* search, greedy best-first search, and heuristic hill climbing."
+   ]
+},
+{
+   "tag":"optimization problems",
+   "patterns":[
+      "optimization problems",
+      "what are the optimization problems"
+   ],
+   "responses":[
+      "Optimization Problems:\nOptimization Techniques:\n AI employs various optimization algorithms like genetic algorithms, simulated annealing, and particle swarm optimization to find optimal or near-optimal solutions to complex problems.\nApplications: Optimization problems arise in diverse fields such as logistics, scheduling, resource allocation, and engineering design."
+   ]
+},
+{
+   "tag":"constarint satisfaction problem",
+   "patterns":[
+      "constraint satisfaction problem",
+      "what is constraint satisfaction problem"
+   ],
+   "responses":[
+      "Optimization problems in AI involve finding the best solution among a set of feasible solutions, typically aiming to minimize or maximize an objective function. Here are some common optimization problems in AI:\n**Constraint Satisfaction Problems (CSP)**: CSPs involve finding a solution that satisfies a set of constraints. Examples include scheduling problems, resource allocation, and map coloring.\n**Linear Programming (LP)**: LP involves optimizing a linear objective function subject to linear equality and inequality constraints. It has various applications, including production planning, portfolio optimization, and transportation problems.\n**Integer Programming (IP)**: IP is similar to LP but with the additional constraint that some or all variables must take integer values. It's used in various applications where decisions must be made in whole numbers, such as project selection and facility location.\n**Genetic Algorithms (GA)**: GAs are optimization algorithms inspired by the process of natural selection. They work by evolving a population of candidate solutions over successive generations using techniques such as crossover, mutation, and selection. GAs are used in optimization problems with complex search spaces and nonlinear objective functions.\n**Swarm Intelligence Algorithms**: These algorithms are inspired by the collective behavior of social organisms like ants, bees, and birds. Examples include Particle Swarm Optimization (PSO) and Ant Colony Optimization (ACO), which are used for optimization problems such as routing, scheduling, and clustering.\n**Simulated Annealing**: Simulated Annealing is a probabilistic optimization technique inspired by the annealing process in metallurgy. It starts with an initial solution and iteratively explores neighboring solutions, gradually accepting worse solutions with a decreasing probability. It's effective for combinatorial optimization problems with rugged search spaces.\n**Neural Network Optimization**: Training neural networks involves optimizing their parameters to minimize a loss function. Techniques such as gradient descent, stochastic gradient descent (SGD), and its variants like Adam and RMSprop are commonly used for this purpose.\n**Combinatorial Optimization**: These problems involve finding the best arrangement, combination, or permutation of elements from a finite set. Exples include the Traveling Salesman Problem (TSP), Knapsack Problem, and Graph Coloring Problem.\n**Reinforcement Learning (RL)**: RL involves learning to make sequential decisions to maximize cumulative rewards in an environment. It's used in optimization problems where decisions have long-term consequences and the environment is dynamic, such as game playing, robotics, and autonomous vehicle control.\n 10 **Bayesian Optimization**: Bayesian Optimization is a probabilistic optimization technique that uses probabilistic surrogate models to model the objective function and guide the search process efficiently. It's particularly useful for optimizing expensive black-box functions, such as hyperparameter tuning in machine learning models."
+   ]
+},
+{
+   "tag":"min max search",
+   "patterns":[
+      "min max search",
+      "what is min max search"
+   ],
+   "responses":[
+      "Minimax search is a decision-making algorithm commonly used in artificial intelligence for turn-based games and decision-making problems with alternating players, such as chess, checkers, or tic-tac-toe. The goal of the algorithm is to find the optimal move for a player, assuming that the opponent also plays optimally.\n\nHere's how the minimax algorithm works:\n\nGenerate Game Tree: The algorithm starts by constructing a game tree that represents all possible moves for both players, up to a certain depth or until a terminal state (win, lose, or draw) is reached.\nEvaluate Terminal States:\n At the terminal states (i.e., game over states), the utility or value of the state is evaluated. In a game like chess, this could be a simple win (+1), loss (-1), or draw (0).\nPropagate Values Back Up:\nThe values of terminal states are propagated back up the tree. At each level, if it's the maximizing player's turn, it selects the maximum value among its children nodes. If it's the minimizing player's turn, it selects the minimum value among its children nodes.\nChoose Best Move:\n Finally, at the root level, the algorithm selects the move that leads to the maximum value if it's the maximizing player's turn, or the minimum value if it's the minimizing player's turn.\nAlpha-Beta Pruning:\n To optimize the search, alpha-beta pruning is often used to prune branches of the tree that are guaranteed to not affect the final decision."
+   ]
+}
+]
+}
